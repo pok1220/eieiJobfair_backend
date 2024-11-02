@@ -36,10 +36,10 @@ app.use(cookieParser());
 app.use("/api/v1/companies", companies);
 app.use("/api/v1/auth", auth);
 app.use("/api/v1/bookings", bookings);
-app.use('*.css', (req, res, next) => {
-  res.set('Content-Type', 'text/css');
-  next();
-});
+// app.use('*.css', (req, res, next) => {
+//   res.set('Content-Type', 'text/css');
+//   next();
+// });
 
 const PORT = process.env.PORT || 5001;
 const server = app.listen(
