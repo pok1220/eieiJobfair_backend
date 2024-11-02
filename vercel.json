@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "vaccine-app-backend-2",
+    "name": "hoteq",
     "builds": [
         {
             "src": "server.js",
