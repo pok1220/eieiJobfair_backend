@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "hoteq",
+    "name": "jobfair",
     "builds": [
         {
             "src": "server.js",
