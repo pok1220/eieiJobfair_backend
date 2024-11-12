@@ -61,7 +61,7 @@ const swaggerOptions={
     },
     servers: [
       {
-        url: process.env.HOST + ':' +PORT+'api/v1'
+        url: process.env.HOST + ':'+PORT+'/'+'api/v1'
       }
     ],
   },
